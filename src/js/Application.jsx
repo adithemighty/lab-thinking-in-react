@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react";
+import FilterableProductTable from "./FilterableProductTable";
 
 class Application extends React.Component {
-    render() {
-        return (
-            <div className="container">
-                <h1>Let's get started with React!</h1>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div className="container">
+        <FilterableProductTable />
+      </div>
+    );
+  }
 }
 
-export default Application
+export default Application;
